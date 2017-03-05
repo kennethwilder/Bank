@@ -1,0 +1,12 @@
+try:
+	f = open('cuspassfile.txt', 'r')
+	print "Sucessfully opened the file"
+except IOError:
+	print "Can not open the file because due to file open issues "
+else:
+	print "I am in else loop"
+	f.close()
+	
+	
+	
+	
